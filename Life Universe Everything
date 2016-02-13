@@ -1,0 +1,22 @@
+#include<iostream>
+#include<stdlib.h>
+
+using namespace std;
+
+int main() {
+
+int input;
+
+while (1) {
+    cin>>input;
+
+    if(input==42)
+    exit(0);
+
+    else
+        cout<<input<<"\n";
+
+}
+return 0;
+}
+
